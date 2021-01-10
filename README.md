@@ -14,3 +14,6 @@ The core of this application is Salesforce Einstein Vision. In particular, we ar
 Essentially, we've created a [backend api service](https://github.com/nw2021/GoodgredientsBack) that takes an image request from a client, uses the Einstein OCR model to extract text from the image, compares it to our dataset of chemical details (ex. toxicity, allergy, etc.), and sends a response containing the comparison results back to the client.
 
 To demonstrate a practical workflow, we've also created a [sample client iOS app using React Native.](https://github.com/nw2021/GoodgredientsFront)
+
+## demo
+![demo gif](img/goodgredientsdemo.gif)
